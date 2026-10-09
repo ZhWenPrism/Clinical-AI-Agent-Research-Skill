@@ -3,7 +3,7 @@
 ## Windows Codex
 
 ```text
-请把 GitHub 仓库 wenzhihong168/clinical-ai-agent-research-skill 中的科研 skills 安装到这台 Windows 电脑的 Codex 全局 skills 目录。
+请把 GitHub 仓库 ZhWenPrism/clinical-ai-agent-research-skill 中的科研 skills 安装到这台 Windows 电脑的 Codex 全局 skills 目录。
 
 要求：
 1. 先检查 Git for Windows 和 GitHub CLI；如果仓库是私有的，运行 gh auth status，未登录时引导我完成 gh auth login，不要索要或显示 token。
@@ -20,7 +20,7 @@
 ## Claude Code
 
 ```text
-请把 GitHub 仓库 wenzhihong168/clinical-ai-agent-research-skill 中的科研 skills 安装为我的 Claude Code 个人 skills。
+请把 GitHub 仓库 ZhWenPrism/clinical-ai-agent-research-skill 中的科研 skills 安装为我的 Claude Code 个人 skills。
 
 要求：
 1. 先检查 Git 和 GitHub 身份；如果仓库是私有的，使用 gh auth login 的安全交互流程，不要让我把 token 粘贴到聊天中。
@@ -38,5 +38,5 @@
 ## 同一台 Windows 同时安装两端
 
 ```text
-请从私有 GitHub 仓库 wenzhihong168/clinical-ai-agent-research-skill 安全安装整套科研 skills，同时部署到 Windows Codex 的 $env:USERPROFILE\.agents\skills 和 Claude Code 的 $env:USERPROFILE\.claude\skills。先验证 GitHub 登录并审查安装器与固定 commit 锁文件，然后在仓库根目录运行 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Target All。完成后验证两端各有 16 个含 SKILL.md 的 skill 目录，报告备份位置和任何失败项；不要安装细胞级重型栈或全局运行时，不要处理任何 PHI 或密钥。
+请从私有 GitHub 仓库 ZhWenPrism/clinical-ai-agent-research-skill 安全安装整套科研 skills，同时部署到 Windows Codex 的 $env:USERPROFILE\.agents\skills 和 Claude Code 的 $env:USERPROFILE\.claude\skills。先验证 GitHub 登录并审查安装器与固定 commit 锁文件，然后在仓库根目录运行 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Target All。完成后验证两端各有 16 个含 SKILL.md 的 skill 目录，报告备份位置和任何失败项；不要安装细胞级重型栈或全局运行时，不要处理任何 PHI 或密钥。
 ```
