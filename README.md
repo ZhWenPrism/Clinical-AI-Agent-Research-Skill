@@ -2,7 +2,7 @@
 
 A portable research skill for rigorous work in clinical decision support, diagnostic and prognostic modeling, multimodal patient data, medical machine learning, retrieval-augmented generation, and single- or multi-agent systems.
 
-The skill defines a leakage-safe research workflow from question formulation and cohort design through model evaluation, reporting, and reproducibility. It is designed for research planning and analysis; it does not provide patient-specific diagnosis, treatment, triage, or dosing advice.
+The skill defines a leakage-safe research workflow from question formulation and cohort design through model evaluation, reporting, and reproducibility.
 
 ## Coverage
 
@@ -60,8 +60,4 @@ clinical-ai-agent-research/
 ```
 
 `DEPLOYMENT_PROMPTS.md` contains deployment prompts, while `SECURITY.md` defines the project security and disclosure policy.
-
-## Research boundary
-
-Clinical data and unpublished material require explicit authorization and appropriate privacy controls. Patient-level data should be processed locally, with only the minimum necessary schema or aggregate diagnostics exposed to external services. All clinical outputs remain research artifacts subject to qualified human review.
 
